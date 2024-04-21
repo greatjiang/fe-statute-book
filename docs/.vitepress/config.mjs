@@ -12,13 +12,16 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: '静态网站',
+        text: '搭建静态网站',
         items: [
           { text: 'github静态网站', link: '/static-website' },
         ]
       },
       {
-        text: '建设中...',
+        text: '工作用得到',
+        items: [
+          { text: '实用工具库', link: '/fe-util-lib' },
+        ]
       },
     ],
 
