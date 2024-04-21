@@ -4,22 +4,17 @@ layout: home
 
 hero:
   name: "前端法典"
-  text: "前端知识归纳总结"
-  tagline: My great project tagline
+  text: "前端常用的这里都有"
+  tagline: 前端常用的这里都有
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 开始
+      link: /static-website.md
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 实用
+    details: 记录工作中常用的代码
+  - title: 提升
+    details: 面面俱到的硬实力，全面提升自身实力
 ---
 
