@@ -1,7 +1,7 @@
 {
   "name": "fe-statute-book",
   "version": "1.0.0",
-  "description": "归纳总结",
+  "description": "你需要的前端知识都在这里",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
