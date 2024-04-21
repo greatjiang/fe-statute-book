@@ -23,7 +23,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://greatjiang.github.io/full-stack-journal/' }
+      { icon: 'github', link: 'https://github.com/greatjiang/fe-statute-book' }
     ]
   }
 })
