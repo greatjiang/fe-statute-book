@@ -9,7 +9,7 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "author": "",
+  "author": "greatjiang",
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.1.3"
