@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "前端法典"
-  text: "前端常用的这里都有"
-  tagline: 前端常用的这里都有
+  text: "你需要的前端知识都在这里"
+  # tagline: 前端常用的这里都有
   actions:
     - theme: brand
       text: 开始
