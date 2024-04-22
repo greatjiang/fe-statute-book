@@ -6,9 +6,16 @@ export default defineConfig({
   title: "前端法典",
   description: "前端知识归纳总结",
   themeConfig: {
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '指南', link: '/static-website.md' }
+      { text: '文档', link: '/static-website.md' }
     ],
     sidebar: [
       {
@@ -23,7 +30,7 @@ export default defineConfig({
           { text: '发布一个npm包', link: '/npm' },
           { text: '常见概念', link: '/concept' },
           { text: '实用工具库', link: '/fe-util-lib' },
-          { text: '教程文档', link: '' },
+          { text: '教程文档', link: '/course' },
         ]
       },
       {
@@ -111,7 +118,7 @@ export default defineConfig({
             items: [
               { text: 'Nginx', link: '' },
               { text: 'ssh', link: '' },
-              { text: 'Linux', link: '' },
+              { text: 'Linux', link: '/linux-docs' },
               { text: 'PM2', link: '' },
             ]
           },
@@ -127,7 +134,6 @@ export default defineConfig({
           { text: '日志', link: '' },
         ]
       },
-
     ],
 
     socialLinks: [
@@ -140,6 +146,5 @@ export default defineConfig({
         timeStyle: 'medium'
       }
     }
-  },
-  // lastUpdated: true
+  }
 })
