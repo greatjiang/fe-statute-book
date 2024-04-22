@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "前端法典"
-  text: "你需要的前端知识都在这里"
-  # tagline: 前端常用的这里都有
+  text: JavaScript全栈技能
+  tagline: 你需要的前端知识都在这里
   actions:
     - theme: brand
       text: 开始
@@ -13,8 +13,10 @@ hero:
 
 features:
   - title: 实用
-    details: 记录工作中常用的代码
+    details: 工作必备代码
+  - title: 全面
+    details: 覆盖全栈知识
   - title: 提升
-    details: 面面俱到的硬实力，全面提升自身实力
+    details: 实例讲解，急速提升
 ---
 

@@ -1,8 +1,11 @@
 # 前端法典
-1. 总结前端技术要点、重点   
-2. 工作常见问题解决方案   
-3. 前端必备业务项目教程  
-  1.全栈项目   
-  2.Vue3组件库项目   
-  3.多活动h5项目   
-4. 前端、全栈、架构必备技能
+对自己多年工作经验及额外学习的总结。   
+主要是JavaScript、Vue、Nodejs相关的全站知识及构建工具脚手架知识梳理总结。   
+还会有数据结构算法。   
+TypeScript和Nestjs后续会有少量涉及。   
+小程序、React不在梳理范围。   
+
+## 目录
+[创建一个github静态网站](https://greatjiang.github.io/fe-statute-book/static-website.html)
+   
+持续更新中...
