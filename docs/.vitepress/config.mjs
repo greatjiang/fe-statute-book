@@ -40,7 +40,7 @@ export default defineConfig({
             text: '基础部分',
             collapsed: true,
             items: [
-              { text: 'CSS', link: '' },
+              { text: 'CSS', link: '/css-docs' },
               { text: 'HTML', link: '' },
               { text: 'JavaScript', link: '' },
             ]
