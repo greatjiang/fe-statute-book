@@ -125,7 +125,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '业务实战',
+        text: '功能实战',
         items: [
           { text: 'Express、Koa、Nest 接口模板', link: '' },
           { text: '大文件上传、断点续传', link: '' },
@@ -134,6 +134,13 @@ export default defineConfig({
           { text: '日志', link: '' },
         ]
       },
+      {
+        text: '项目教程',
+        items: [
+          { text: '全栈日记', link: '/full-stack-journal' },
+        ]
+      },
+
     ],
 
     socialLinks: [
