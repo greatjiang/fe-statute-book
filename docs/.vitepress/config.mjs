@@ -41,7 +41,6 @@ export default defineConfig({
             { text: '发布一个npm包', link: '/docs/npm' },
             { text: '常见概念', link: '/docs/concept' },
             { text: '实用工具库', link: '/docs/fe-util-lib' },
-            { text: '教程文档', link: '/docs/course' },
           ]
         },
 
@@ -52,7 +51,7 @@ export default defineConfig({
           items: [
             {
               text: '基础部分',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'CSS', link: '/skill-tree/css-docs' },
                 { text: 'HTML', link: '' },
@@ -61,7 +60,7 @@ export default defineConfig({
             },
             {
               text: '高级部分',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'ES6+', link: '' },
                 { text: 'TypeScript', link: '' },
@@ -70,7 +69,7 @@ export default defineConfig({
             },
             {
               text: '前端框架',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'Vue3', link: '' },
                 { text: 'Bootstrap', link: '' },
@@ -78,7 +77,7 @@ export default defineConfig({
             },
             {
               text: '构建工具',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'Webpack', link: '' },
                 { text: 'Gulp', link: '' },
@@ -89,7 +88,7 @@ export default defineConfig({
             },
             {
               text: '后端部分',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'Express', link: '' },
                 { text: 'Koa', link: '' },
@@ -98,7 +97,7 @@ export default defineConfig({
             },
             {
               text: '数据结构',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: '栈', link: '' },
                 { text: '树', link: '' },
@@ -106,7 +105,7 @@ export default defineConfig({
             },
             {
               text: '算法',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: '冒泡', link: '' },
                 { text: '二分', link: '' },
@@ -114,21 +113,21 @@ export default defineConfig({
             },
             {
               text: '数据库',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'Mysql', link: '' },
               ]
             },
             {
               text: '版本库',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'Git', link: '' },
               ]
             },
             {
               text: '服务器',
-              collapsed: true,
+              collapsed: false,
               items: [
                 { text: 'Nginx', link: '' },
                 { text: 'ssh', link: '' },
