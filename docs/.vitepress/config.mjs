@@ -42,7 +42,7 @@ export default defineConfig({
             items: [
               { text: 'CSS', link: '/css-docs' },
               { text: 'HTML', link: '' },
-              { text: 'JavaScript', link: '' },
+              { text: 'JavaScript', link: '/javascript-docs' },
             ]
           },
           {

@@ -12,8 +12,8 @@ hero:
       link: /static-website.md
 
 features:
-  - title: 实用
-    details: 工作必备代码
+  - title: 快捷
+    details: 搜索所需代码，一键复制，瞬间解决工作中的问题
   - title: 全面
     details: 覆盖全栈知识
   - title: 提升
