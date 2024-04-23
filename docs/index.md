@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /static-website.md
+      link: /docs/static-website.md
 
 features:
   - title: 快捷
