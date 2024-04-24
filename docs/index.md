@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "前端法典"
+  name: "GreatBook"
   text: JavaScript全栈技能
   tagline: 你需要的前端知识都在这里
   actions:

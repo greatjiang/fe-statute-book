@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/fe-statute-book/",
-  title: "前端法典",
-  description: "前端知识归纳总结",
+  title: "GreatBook",
+  description: "你需要的前端知识都在这里",
   themeConfig: {
     docFooter: {
       prev: '上一页',
