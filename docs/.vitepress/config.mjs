@@ -82,8 +82,6 @@ export default defineConfig({
                 { text: 'Webpack', link: '' },
                 { text: 'Gulp', link: '' },
                 { text: 'Vite', link: '' },
-                { text: 'NPM', link: '' },
-                { text: 'Pm2', link: '' },
               ]
             },
             {
@@ -92,15 +90,18 @@ export default defineConfig({
               items: [
                 { text: 'Express', link: '' },
                 { text: 'Koa', link: '' },
-                { text: 'Nest', link: '' },
               ]
             },
             {
               text: '数据结构',
               collapsed: false,
               items: [
-                { text: '栈', link: '' },
+                { text: '栈、队列', link: '' },
+                { text: '链表', link: '' },
+                { text: '集合', link: '' },
                 { text: '树', link: '' },
+                { text: '堆', link: '' },
+                { text: '图', link: '' },
               ]
             },
             {
@@ -108,7 +109,13 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: '冒泡', link: '' },
+                { text: '选择', link: '' },
+                { text: '插入', link: '' },
+                { text: '归并', link: '' },
+                { text: '快速', link: '' },
                 { text: '二分', link: '' },
+                { text: '分而治之、动态规划', link: '' },
+                { text: '贪心算法、回溯算法', link: '' },
               ]
             },
             {
