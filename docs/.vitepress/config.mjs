@@ -38,7 +38,7 @@ export default defineConfig({
         {
           text: '工作用得到',
           items: [
-            { text: '发布一个npm包', link: '/docs/npm' },
+            // { text: '发布一个npm包', link: '/docs/npm' },
             { text: '常见概念', link: '/docs/concept' },
             { text: '实用工具库', link: '/docs/fe-util-lib' },
           ]
@@ -64,7 +64,13 @@ export default defineConfig({
               items: [
                 { text: 'ES6+', link: '' },
                 { text: 'TypeScript', link: '' },
-                { text: 'Nodejs', link: '' },
+                {
+                  text: 'Nodejs',
+                  collapsed: false,
+                  items: [
+                    { text: 'package', link: '/skill-tree/nodejs/learn-package' },
+                  ]
+                },
               ]
             },
             {
