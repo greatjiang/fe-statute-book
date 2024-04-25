@@ -68,7 +68,7 @@ export default defineConfig({
                   text: 'Nodejs',
                   collapsed: false,
                   items: [
-                    { text: 'package', link: '/skill-tree/nodejs/learn-package' },
+                    { text: 'package.json', link: '/skill-tree/nodejs/learn-package' },
                   ]
                 },
               ]
