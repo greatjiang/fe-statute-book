@@ -15,26 +15,22 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '文档', link: '/docs/static-website.md' },
-      { text: '技能树', link: '/skill-tree/css-docs.md' },
-      { text: '项目教程', link: '/project/full-stack-journal.md' }
+      { text: '基础', link: '/docs/concept' },
+      { text: '技能树', link: '/skill-tree/css-docs' },
+      { text: '项目教程', link: '/project/static-website' }
     ],
     sidebar: {
       '/project/': [
         {
           text: '项目教程',
           items: [
+            { text: 'github静态网站', link: '/project/static-website' },
             { text: '全栈日记', link: '/project/full-stack-journal' },
           ]
         },
       ],
       '/docs/': [
-        {
-          text: '搭建静态网站',
-          items: [
-            { text: 'github静态网站', link: '/docs/static-website' },
-          ]
-        },
+
         {
           text: '工作用得到',
           items: [
@@ -68,6 +64,7 @@ export default defineConfig({
                   text: 'Nodejs',
                   collapsed: false,
                   items: [
+                    { text: '版本管理：n', link: '/skill-tree/nodejs/n' },
                     { text: 'package.json', link: '/skill-tree/nodejs/learn-package' },
                   ]
                 },

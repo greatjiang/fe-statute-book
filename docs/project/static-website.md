@@ -1,4 +1,6 @@
 # 静态网站搭建
+使用VitePress和github快速搭建一个静态网站
+
 ## 1.github创建一个项目   
 登录github创建一个项目   
 并把项目clone到本地   
