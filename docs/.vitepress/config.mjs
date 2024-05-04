@@ -17,22 +17,23 @@ export default defineConfig({
     nav: [
       { text: '基础', link: '/docs/concept' },
       { text: '技能树', link: '/skill-tree/css-docs' },
-      { text: '项目教程', link: '/project/static-website' }
+      // { text: '功能实例', link: '/demos/css-docs' },
+      { text: '项目教程', link: '/projects/static-website' }
     ],
     sidebar: {
-      '/project/': [
+      '/projects/': [
         {
           text: '项目教程',
           items: [
-            { text: 'github静态网站', link: '/project/static-website' },
-            { text: '全栈日记', link: '/project/full-stack-journal' },
+            { text: 'github静态网站', link: '/projects/static-website' },
+            { text: '全栈日记', link: '/projects/full-stack-journal' },
           ]
         },
       ],
       '/docs/': [
 
         {
-          text: '工作用得到',
+          text: '基础',
           items: [
             // { text: '发布一个npm包', link: '/docs/npm' },
             { text: '常见概念', link: '/docs/concept' },
@@ -93,6 +94,13 @@ export default defineConfig({
               items: [
                 { text: 'Express', link: '' },
                 { text: 'Koa', link: '' },
+              ]
+            },
+            {
+              text: '网络',
+              collapsed: false,
+              items: [
+                { text: '三次握手', link: '' },
               ]
             },
             {
