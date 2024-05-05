@@ -16,7 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '基础', link: '/docs/concept' },
-      { text: '技能树', link: '/skill-tree/css-docs' },
+      { text: '技能树', link: '/skill-tree/overview' },
       // { text: '功能实例', link: '/demos/css-docs' },
       { text: '项目教程', link: '/projects/static-website' }
     ],
@@ -47,6 +47,9 @@ export default defineConfig({
           text: '技能树',
           items: [
             {
+              text: '概述', link: '/skill-tree/overview'
+            },
+            {
               text: '基础部分',
               collapsed: false,
               items: [
@@ -67,6 +70,9 @@ export default defineConfig({
                   items: [
                     { text: '版本管理：n', link: '/skill-tree/nodejs/n' },
                     { text: 'package.json', link: '/skill-tree/nodejs/learn-package' },
+                    { text: 'Express和Koa的脚手架', link: '/skill-tree/nodejs/generator' },
+                    { text: 'Express项目结构', link: '/skill-tree/nodejs/express-project' },
+                    { text: 'node_modules', link: '/skill-tree/nodejs/node-modules' },
                   ]
                 },
               ]
