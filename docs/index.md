@@ -10,9 +10,17 @@ hero:
     - theme: brand
       text: 开始
       link: /docs/concept
-    # - theme: alt
-    #   text: 技能树
-    #   link: /skill-tree/overview
+    - theme: alt
+      text: 教程文档
+      link: /sites/sites
+    - theme: alt
+      text: NodeJS实例
+      link: /todo/todo
+    - theme: alt
+      text: Vue
+      link: /todo/todo
+    
+    
 
 features:
   - title: 快捷

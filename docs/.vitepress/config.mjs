@@ -17,15 +17,14 @@ export default defineConfig({
     nav: [
       { text: '基础', link: '/docs/concept' },
       // { text: '技能树', link: '/skill-tree/overview' },
-      // { text: '功能实例', link: '/demos/css-docs' },
-      { text: '项目教程', link: '/projects/static-website' }
+      { text: '实用教程', link: '/course/npm.md' },
+      { text: '项目教程', link: '/projects/full-stack-journal' }
     ],
     sidebar: {
       '/projects/': [
         {
           text: '项目教程',
           items: [
-            { text: 'github静态网站', link: '/projects/static-website' },
             { text: '全栈日记', link: '/projects/full-stack-journal' },
           ]
         },
@@ -163,6 +162,15 @@ export default defineConfig({
                 { text: 'PM2', link: '' },
               ]
             },
+          ]
+        },
+      ],
+      '/course/': [
+        {
+          text: '实用教程',
+          items: [
+            { text: '发布npm包', link: '/course/npm' },
+            { text: '搭建github静态网站', link: '/course/static-website' },
           ]
         },
       ]
