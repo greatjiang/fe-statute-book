@@ -16,7 +16,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '基础', link: '/docs/concept' },
-      { text: '技能树', link: '/skill-tree/overview' },
+      // { text: '技能树', link: '/skill-tree/overview' },
       // { text: '功能实例', link: '/demos/css-docs' },
       { text: '项目教程', link: '/projects/static-website' }
     ],
@@ -38,6 +38,7 @@ export default defineConfig({
             // { text: '发布一个npm包', link: '/docs/npm' },
             { text: '常见概念', link: '/docs/concept' },
             { text: '实用工具库', link: '/docs/fe-util-lib' },
+            { text: '技能树', link: '/docs/skill-tree' },
           ]
         },
 
@@ -73,6 +74,8 @@ export default defineConfig({
                     { text: 'Express和Koa的脚手架', link: '/skill-tree/nodejs/generator' },
                     { text: 'Express项目结构', link: '/skill-tree/nodejs/express-project' },
                     { text: 'node_modules', link: '/skill-tree/nodejs/node-modules' },
+                    // 核心模块
+
                   ]
                 },
               ]
@@ -92,6 +95,7 @@ export default defineConfig({
                 { text: 'Webpack', link: '' },
                 { text: 'Gulp', link: '' },
                 { text: 'Vite', link: '' },
+                // 搭建一个前端项目都需要什么配置
               ]
             },
             {

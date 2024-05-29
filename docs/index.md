@@ -10,9 +10,9 @@ hero:
     - theme: brand
       text: 开始
       link: /docs/concept
-    - theme: alt
-      text: 技能树
-      link: /skill-tree/overview
+    # - theme: alt
+    #   text: 技能树
+    #   link: /skill-tree/overview
 
 features:
   - title: 快捷
