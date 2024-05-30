@@ -26,6 +26,7 @@ export default defineConfig({
           text: '项目教程',
           items: [
             { text: '全栈日记', link: '/projects/full-stack-journal' },
+            { text: 'Vue3组件库', link: '/projects/vue3-components' },
           ]
         },
       ],
@@ -36,6 +37,7 @@ export default defineConfig({
             { text: '常见概念', link: '/docs/concept' },
             { text: '实用工具库', link: '/docs/fe-util-lib' },
             { text: '技能树', link: '/docs/skill-tree' },
+            { text: '学习文档', link: '/docs/study-docs' },
           ]
         },
       ],

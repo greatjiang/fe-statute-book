@@ -13,12 +13,6 @@ JavaScript
 ES6+
 TypeScript
 Nodejs
-  版本管理：n
-  package.json
-  Express和Koa的脚手架
-  Express项目结构
-  node_modules
-  ...
 ```
 
 ## 前端框架
