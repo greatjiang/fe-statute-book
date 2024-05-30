@@ -15,9 +15,9 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '基础', link: '/docs/concept' },
-      // { text: '技能树', link: '/skill-tree/overview' },
-      { text: '实用教程', link: '/course/npm.md' },
+      { text: '基础知识', link: '/docs/concept' },
+      { text: '技术文章', link: '/skill-tree/overview' },
+      { text: '实用教程', link: '/course/npm' },
       { text: '项目教程', link: '/projects/full-stack-journal' }
     ],
     sidebar: {
@@ -30,17 +30,14 @@ export default defineConfig({
         },
       ],
       '/docs/': [
-
         {
           text: '基础',
           items: [
-            // { text: '发布一个npm包', link: '/docs/npm' },
             { text: '常见概念', link: '/docs/concept' },
             { text: '实用工具库', link: '/docs/fe-util-lib' },
             { text: '技能树', link: '/docs/skill-tree' },
           ]
         },
-
       ],
       '/skill-tree/': [
         {
@@ -173,8 +170,7 @@ export default defineConfig({
             { text: '搭建github静态网站', link: '/course/static-website' },
           ]
         },
-      ]
-
+      ],
       // {
       //   text: '功能实战',
       //   items: [
@@ -186,7 +182,6 @@ export default defineConfig({
       //   ]
       // },
     },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/greatjiang/fe-statute-book' }
     ],

@@ -8,19 +8,11 @@ hero:
   tagline: 你需要的前端知识都在这里
   actions:
     - theme: brand
-      text: 开始
+      text: 基础知识
       link: /docs/concept
     - theme: alt
-      text: 教程文档
-      link: /sites/sites
-    - theme: alt
-      text: NodeJS实例
-      link: /todo/todo
-    - theme: alt
-      text: Vue
-      link: /todo/todo
-    
-    
+      text: 技术文章
+      link: /skill-tree/overview
 
 features:
   - title: 快捷
