@@ -108,7 +108,7 @@ export default defineConfig({
               text: '网络',
               collapsed: false,
               items: [
-                { text: '三次握手', link: '' },
+                { text: '三次握手', link: '/skill-tree/net/three-times' },
               ]
             },
             {
