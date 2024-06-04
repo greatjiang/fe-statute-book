@@ -15,3 +15,5 @@ Z shell（zsh）
   
 Fish shell   
   Fish shell 是一种用户友好的 shell 解释器，它提供了直观的语法和交互式提示，适合新手和有经验的用户使用。   
+
+## Linux版本

@@ -14,15 +14,14 @@
   否
 
 ## 测试
+创建账号
+创建项目
+clone
+push
+
 
 ## apt常见操作
 
 ## 遇见的问题
 kex_exchange_identification: read: Connection reset by peer
-Host 101.201.178.98 not found in /Users/greatjiang/.ssh/known_hosts
-
-## .ssh/known_hosts是做什么的
-
-## config 是做什么的
-
-## ssh-keyscan
+Host xxx.xxx.xxx.xx not found in /Users/greatjiang/.ssh/known_hosts
