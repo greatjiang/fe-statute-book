@@ -82,8 +82,9 @@ export default defineConfig({
               text: '前端框架',
               collapsed: false,
               items: [
-                { text: 'Vue3', link: '' },
-                { text: 'Bootstrap', link: '' },
+                { text: 'Vue3', link: '/todo' },
+                { text: 'React', link: '/todo' },
+                { text: 'Bootstrap', link: '/todo' },
               ]
             },
             {

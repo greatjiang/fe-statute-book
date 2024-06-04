@@ -16,7 +16,7 @@ hero:
 
 features:
   - title: 快捷
-    details: 搜索所需代码，一键复制，瞬间解决工作中的问题
+    details: 搜索所需代码，一键复制，快速解决工作中的问题
   - title: 全面
     details: 覆盖全栈知识
   - title: 提升
