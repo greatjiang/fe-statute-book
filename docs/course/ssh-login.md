@@ -1,6 +1,21 @@
 # SSH免密登录
 
+## 查看公钥私钥
+一般公钥存放在 ~/.ssh目录下  
+公钥：id_rsa  
+私钥：id_rsa.pub  
+
+### 其它文件
+config  
+  ssh用户配置文件默认在.ssh/config这个路径, 使用config文件之后, 无需再去记机器ip,密码,各种ssh参数,也不用再每次都敲各种参数或配置  
+
+known_hosts  
+  known_hosts 文件存储用户访问的主机的公钥
+  当你通过SSH连接到一个新的远程服务器时，系统会提示你是否要将远程主机添加到 known_hosts 文件
+
 ## 创建公钥私钥
+如果 ~/.ssh目录下没有，则需要自己手动创建  
+
 ```sh
 ssh-keygen -t rsa -b 2048
 ```
