@@ -171,6 +171,7 @@ export default defineConfig({
             { text: '发布npm包', link: '/course/npm' },
             { text: '搭建github静态网站', link: '/course/static-website' },
             { text: '在阿里云上搭建Gitlab', link: '/course/gitlab' },
+            { text: 'SSH免密登录', link: '/course/ssh-login' },
           ]
         },
       ],
