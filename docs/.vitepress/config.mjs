@@ -150,6 +150,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Git', link: '' },
+                { text: 'GitHub', link: '/skill-tree/git/github' },
               ]
             },
             {
