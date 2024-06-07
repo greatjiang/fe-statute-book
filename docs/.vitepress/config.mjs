@@ -50,7 +50,7 @@ export default defineConfig({
             },
             {
               text: '基础部分',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'CSS', link: '/skill-tree/css-docs' },
                 { text: 'HTML', link: '' },
@@ -59,7 +59,7 @@ export default defineConfig({
             },
             {
               text: '高级部分',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'ES6+', link: '' },
                 { text: 'TypeScript', link: '' },
@@ -80,7 +80,7 @@ export default defineConfig({
             },
             {
               text: '前端框架',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Vue3', link: '/todo' },
                 { text: 'React', link: '/todo' },
@@ -89,7 +89,7 @@ export default defineConfig({
             },
             {
               text: '构建工具',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Webpack', link: '' },
                 { text: 'Gulp', link: '' },
@@ -99,7 +99,7 @@ export default defineConfig({
             },
             {
               text: '后端部分',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Express', link: '' },
                 { text: 'Koa', link: '' },
@@ -108,14 +108,14 @@ export default defineConfig({
             },
             {
               text: '网络',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '三次握手', link: '/skill-tree/net/three-times' },
               ]
             },
             {
               text: '数据结构',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '栈、队列', link: '' },
                 { text: '链表', link: '' },
@@ -127,7 +127,7 @@ export default defineConfig({
             },
             {
               text: '算法',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '冒泡', link: '' },
                 { text: '选择', link: '' },
@@ -141,14 +141,14 @@ export default defineConfig({
             },
             {
               text: '数据库',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Mysql', link: '' },
               ]
             },
             {
               text: '版本库',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Git', link: '' },
                 { text: 'GitHub', link: '/skill-tree/git/github' },
@@ -156,7 +156,7 @@ export default defineConfig({
             },
             {
               text: '服务器',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Nginx', link: '' },
                 { text: 'ssh', link: '' },
