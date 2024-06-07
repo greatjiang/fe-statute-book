@@ -11,11 +11,10 @@ feature:开发新功能分支
 realease:预发布分支  
 hotfix:紧急修复分支  
 
-## 需要深入解析
-
 ## 操作流程
 1.feature/name -> develop
-2.测试develop
-3.测试通过 合并 develop-> main/master
+2.测试develop分支
+3.测试通过 合并 develop-> main(或master)
+
 
 
