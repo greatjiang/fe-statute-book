@@ -150,8 +150,15 @@ export default defineConfig({
               text: '版本库',
               collapsed: true,
               items: [
-                { text: 'Git', link: '' },
-                { text: 'GitHub', link: '/skill-tree/git/github' },
+                { text: 'Git', link: '/skill-tree/git/git' },
+                {
+                  text: 'GitHub',
+                  collapsed: true,
+                  items: [
+                    { text: 'github', link: '/skill-tree/git/github/github' },
+                    { text: 'workflows', link: '/skill-tree/git/github/workflows' },
+                  ]
+                },
               ]
             },
             {
