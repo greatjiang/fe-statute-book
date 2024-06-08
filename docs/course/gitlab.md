@@ -1,5 +1,8 @@
 # 在阿里云上搭建Gitlab
 
+## 系统版本
+CentOS 7.9 64位 UEFI版
+
 ## 配置要求
 硬件要求  
   最低配置（适用于少量用户或测试环境）：  
@@ -18,4 +21,13 @@ It can take up to a few minutes for GitLab to boot completely.
 This page will automatically reload every 5 seconds.  
 
 成功安装 但是访问不了  
-  应该是硬件配置内存不足的问题
+  由于我一开始的服务器配置是CPU: 2 核  内存: 2 GB 不满足gitlab最低配置。
+  升级服务器的内存到4G就可以成功访问了。
+
+## 登录
+用户：root  
+初始密码在gitlab的initial_root_password文件中  
+  sudo cat /etc/gitlab/initial_root_password   
+
+## 创建项目
+其它操作跟github一样
