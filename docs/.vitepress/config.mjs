@@ -27,6 +27,19 @@ export default defineConfig({
           items: [
             { text: '全栈日记', link: '/projects/full-stack-journal' },
             { text: 'Vue3组件库', link: '/projects/vue3-components' },
+            {
+              text: '完整的企业级项目架构教程',
+              collapsed: true,
+              link: '/projects/architect/overview.md',
+              items: [
+                // { text: '项目概述', link: '/projects/architect/overview.md' },
+                { text: 'gitlab搭建', link: '/projects/architect/gitlab.md' },
+                { text: 'h5项目脚手架', link: '/projects/architect/h5.md' },
+                { text: '后端接口API', link: '/projects/architect/api.md' },
+                { text: '后台管理系统', link: '/projects/architect/admin.md' },
+                { text: '服务器部署', link: '/projects/architect/server.md' }
+              ]
+            },
           ]
         },
       ],
