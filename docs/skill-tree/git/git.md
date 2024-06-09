@@ -16,5 +16,5 @@ hotfix:紧急修复分支
 2.测试develop分支
 3.测试通过 合并 develop-> main(或master)
 
-
+## git revert和git reset区别
 
