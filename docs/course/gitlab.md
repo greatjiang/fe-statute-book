@@ -29,5 +29,7 @@ This page will automatically reload every 5 seconds.
 初始密码在gitlab的initial_root_password文件中  
   sudo cat /etc/gitlab/initial_root_password   
 
+## 设置中文版
+
 ## 创建项目
 其它操作跟github一样
