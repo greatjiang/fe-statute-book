@@ -28,3 +28,5 @@ This page will automatically reload every 5 seconds.
 用户：root  
 初始密码在gitlab的initial_root_password文件中  
   sudo cat /etc/gitlab/initial_root_password   
+
+## CI/CD
