@@ -10,8 +10,7 @@ config
   ssh用户配置文件默认在.ssh/config这个路径, 使用config文件之后, 无需再去记机器ip,密码,各种ssh参数,也不用再每次都敲各种参数或配置  
 
 known_hosts  
-  known_hosts 文件存储用户访问的主机的公钥
-  当你通过SSH连接到一个新的远程服务器时，系统会提示你是否要将远程主机添加到 known_hosts 文件
+  A通过ssh首次连接到B，B会将公钥1（host key）传递给A，A将公钥1存入known_hosts文件中，以后A再连接B时，B依然会传递给A一个公钥2，OpenSSH会核对公钥，通过对比公钥1与公钥2 是否相同来进行简单的验证。
 
 ## 创建公钥私钥
 如果 ~/.ssh目录下没有，则需要自己手动创建  
