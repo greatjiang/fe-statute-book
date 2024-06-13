@@ -184,6 +184,13 @@ export default defineConfig({
                 { text: 'PM2', link: '' },
               ]
             },
+            {
+              text: '其它',
+              collapsed: true,
+              items: [
+                { text: 'yaml', link: '/skill-tree/other/yaml.md' },
+              ]
+            }
           ]
         },
       ],
