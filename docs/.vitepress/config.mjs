@@ -188,7 +188,7 @@ export default defineConfig({
               text: '其它',
               collapsed: true,
               items: [
-                { text: 'yaml', link: '/skill-tree/other/yaml.md' },
+                { text: 'yaml', link: '/skill-tree/other/yaml' },
               ]
             }
           ]
