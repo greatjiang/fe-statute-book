@@ -172,6 +172,13 @@ export default defineConfig({
                     { text: 'workflows', link: '/skill-tree/git/github/workflows' },
                   ]
                 },
+                {
+                  text: 'GitLab',
+                  collapsed: true,
+                  items: [
+                    { text: 'CI/CD', link: '/skill-tree/git/gitlab/cicd' },
+                  ]
+                },
               ]
             },
             {
@@ -202,6 +209,7 @@ export default defineConfig({
             { text: '搭建github静态网站', link: '/course/static-website' },
             { text: '在阿里云上搭建Gitlab', link: '/course/gitlab' },
             { text: 'SSH免密登录', link: '/course/ssh-login' },
+            { text: '配置gitlab CI/CD', link: '/course/gitlab-cicd' },
           ]
         },
       ],
