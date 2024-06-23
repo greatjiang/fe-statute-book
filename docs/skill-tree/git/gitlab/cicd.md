@@ -126,6 +126,66 @@ when
 environment
 > 使用 environment 定义作业部署到的环境。
 
+cache ?
+> 使用 cache 指定要在作业之间缓存的文件和目录列表。
+
+dependencies ?
+> 使用 dependencies 关键字定义要从中获取产物的作业列表。
+
+artifacts  ?
+> 使用 artifacts 指定在作业 succeeds, fails, 或 always 时附加到作业的文件和目录列表。
+
+coverage ?
+> 使用带有自定义正则表达式的 coverage 来配置如何从作业输出中提取代码覆盖率。
+
+dast_configuration ?
+> 使用 dast_configuration 关键字指定要在 CI/CD 配置中使用的站点配置文件和扫描程序配置文件。
+
+retry
+> 使用 retry 配置作业失败时重试的次数。如果未定义，则默认为 0 并且作业不会重试。
+
+timeout
+> 使用 timeout 为特定作业配置超时。如果作业运行的时间超过超时时间，作业将失败。
+
+parallel
+> 使用 parallel 配置并行运行的作业实例数。
+
+trigger ?
+> 使用 trigger 来声明一个作业是一个“触发器作业”，它启动一个下游流水线
+
+interruptible
+> 如果在作业完成之前新流水线启动时应取消作业，请使用 interruptible。
+
+resource_group
+> 使用 resource_group 创建一个资源组，以确保同一项目的不同流水线之间的作业是互斥的。
+
+release
+> 使用 release 创建一个发布。
+
+secrets ?
+> 
+
+pages
+> 使用 pages 定义一个 GitLab Pages 作业，将静态内容上传到极狐GitLab，然后将内容发布为网站。
+
+inherit
+> 使用inherit:来控制默认关键字和变量的继承。
+
+variables
+> 使用 variables 为作业定义自定义变量。
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
