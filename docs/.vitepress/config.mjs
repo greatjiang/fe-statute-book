@@ -176,7 +176,7 @@ export default defineConfig({
                   text: 'GitLab',
                   collapsed: true,
                   items: [
-                    { text: 'CI/CD', link: '/skill-tree/git/gitlab/cicd' },
+                    { text: 'gitlab-ci', link: '/skill-tree/git/gitlab/gitlab-ci' },
                   ]
                 },
               ]
