@@ -209,7 +209,7 @@ export default defineConfig({
             { text: '搭建github静态网站', link: '/course/static-website' },
             { text: '在阿里云上搭建Gitlab', link: '/course/gitlab' },
             { text: 'SSH免密登录', link: '/course/ssh-login' },
-            { text: '配置gitlab CI/CD', link: '/course/gitlab-cicd' },
+            // { text: '配置gitlab CI/CD', link: '/course/gitlab-cicd' },
           ]
         },
       ],
