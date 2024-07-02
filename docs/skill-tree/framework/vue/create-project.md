@@ -75,7 +75,7 @@ Pinia
 路由懒加载  
 
 ## 4.组件开发
-
+[Vue3组件库开发教程](../../../projects/vue3-components.md)
 ## 5.Axios配置
 安装vue-axios  
 自定义配置  
