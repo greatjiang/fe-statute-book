@@ -95,7 +95,14 @@ export default defineConfig({
               text: '前端框架',
               collapsed: true,
               items: [
-                { text: 'Vue3', link: '/todo' },
+                {
+                  text: 'Vue3',
+                  collapsed: false,
+                  items: [
+                    { text: 'Vue必备', link: '/skill-tree/framework/vue/create-project' },
+                    { text: 'Pinia使用', link: '/skill-tree/framework/vue/pinia' }
+                  ]
+                },
                 { text: 'React', link: '/todo' },
                 { text: 'Bootstrap', link: '/todo' },
               ]
