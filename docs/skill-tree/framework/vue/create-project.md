@@ -59,13 +59,40 @@ npm init vue@latest
 使用的是Vite构建工具。   
 
 ## 2.数据管理
+Vuex   
+Pinia
 
 ## 3.路由管理
+安装路由  
+静态路由  
+动态路由  
+路由守卫  
+装载路由  
+路由模式  
+路由命名  
+路由参数  
+处理404页面  
+路由懒加载  
 
 ## 4.组件开发
 
 ## 5.Axios配置
-
+安装vue-axios  
+自定义配置  
+不同数据格式的处理  
+响应拦截：未登录处理等  
 ## 6.配置代理
+以Vite项目为例：  
+在vite.config.js中配置  
+```js
+server: {
+  proxy: {
+    '/api': {
+      target:'http://localhost:3000',
+      rewrite: (path) => path.replace(/^\/api/, ''),
+    }
 
+  }
+}
+```
 ## 7.插件和库的使用
