@@ -95,7 +95,14 @@ export default defineConfig({
               text: '前端框架',
               collapsed: true,
               items: [
-                { text: 'Vue3', link: '/todo' },
+                {
+                  text: 'Vue3',
+                  collapsed: false,
+                  items: [
+                    { text: 'Vue必备', link: '/skill-tree/framework/vue/create-project' },
+                    { text: 'Pinia使用', link: '/skill-tree/framework/vue/pinia' }
+                  ]
+                },
                 { text: 'React', link: '/todo' },
                 { text: 'Bootstrap', link: '/todo' },
               ]
@@ -209,7 +216,7 @@ export default defineConfig({
             { text: '搭建github静态网站', link: '/course/static-website' },
             { text: '在阿里云上搭建Gitlab', link: '/course/gitlab' },
             { text: 'SSH免密登录', link: '/course/ssh-login' },
-            { text: '配置gitlab CI/CD', link: '/course/gitlab-cicd' },
+            // { text: '配置gitlab CI/CD', link: '/course/gitlab-cicd' },
           ]
         },
       ],
