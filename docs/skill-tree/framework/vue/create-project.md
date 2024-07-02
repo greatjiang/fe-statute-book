@@ -59,8 +59,11 @@ npm init vue@latest
 使用的是Vite构建工具。   
 
 ## 2.数据管理
-Vuex   
-Pinia
+Vuex     
+Pinia  
+
+### 以Pinia为例
+
 
 ## 3.路由管理
 安装路由  
