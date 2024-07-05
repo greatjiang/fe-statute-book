@@ -74,7 +74,13 @@ export default defineConfig({
               text: '高级部分',
               collapsed: true,
               items: [
-                { text: 'ES6+', link: '' },
+                {
+                  text: 'ES6+',
+                  collapsed: false,
+                  items: [
+                    { text: 'module模块', link: '/skill-tree/es6/module' },
+                  ]
+                },
                 { text: 'TypeScript', link: '' },
                 {
                   text: 'Nodejs',
