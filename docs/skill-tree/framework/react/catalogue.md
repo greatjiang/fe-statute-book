@@ -1,4 +1,4 @@
-版本介绍
+版本介绍 ✅
 创建项目
 稳定版本
 jsx
@@ -16,3 +16,4 @@ applyMiddleware
 react-redux
 React Router
 React 为什么是 JSX 而不是 Templates
+react和react-dom的关系
