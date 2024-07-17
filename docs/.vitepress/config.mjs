@@ -103,13 +103,19 @@ export default defineConfig({
               items: [
                 {
                   text: 'Vue3',
-                  collapsed: false,
+                  collapsed: true,
                   items: [
                     { text: 'Vue必备', link: '/skill-tree/framework/vue/create-project' },
                     { text: 'Pinia使用', link: '/skill-tree/framework/vue/pinia' }
                   ]
                 },
-                { text: 'React', link: '/todo' },
+                {
+                  text: 'React',
+                  collapsed: true,
+                  items: [
+                    { text: 'React的发展', link: '/skill-tree/framework/react/version' },
+                  ]
+                },
                 { text: 'Bootstrap', link: '/todo' },
               ]
             },
