@@ -76,7 +76,7 @@ export default defineConfig({
               items: [
                 {
                   text: 'ES6+',
-                  collapsed: false,
+                  collapsed: true,
                   items: [
                     { text: 'module模块', link: '/skill-tree/es6/module' },
                   ]
@@ -84,15 +84,14 @@ export default defineConfig({
                 { text: 'TypeScript', link: '' },
                 {
                   text: 'Nodejs',
-                  collapsed: false,
+                  collapsed: true,
                   items: [
                     { text: '版本管理：n', link: '/skill-tree/nodejs/n' },
                     { text: 'package.json', link: '/skill-tree/nodejs/learn-package' },
                     { text: 'Express和Koa的脚手架', link: '/skill-tree/nodejs/generator' },
                     { text: 'Express项目结构', link: '/skill-tree/nodejs/express-project' },
                     { text: 'node_modules', link: '/skill-tree/nodejs/node-modules' },
-                    // 核心模块
-
+                    { text: 'npx', link: '/skill-tree/nodejs/npx' },
                   ]
                 },
               ]
@@ -114,6 +113,7 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { text: 'React的发展', link: '/skill-tree/framework/react/version' },
+                    { text: '创建项目', link: '/skill-tree/framework/react/create' },
                   ]
                 },
                 { text: 'Bootstrap', link: '/todo' },
