@@ -1,6 +1,6 @@
 版本介绍 ✅
-创建项目
-稳定版本
+创建项目 
+目录结构
 jsx
 Component（ { Component } from 'react'
 ）和React.Component区别
