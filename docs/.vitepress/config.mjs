@@ -211,6 +211,20 @@ export default defineConfig({
               ]
             },
             {
+              text: '编程思想',
+              collapsed: true,
+              items: [
+                { text: '概述', link: '/skill-tree/paradigms/overview' },
+              ]
+            },
+            {
+              text: '设计模式',
+              collapsed: true,
+              items: [
+                { text: '概述', link: '/skill-tree/patterns/overview' },
+              ]
+            },
+            {
               text: '其它',
               collapsed: true,
               items: [
