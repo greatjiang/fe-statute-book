@@ -67,7 +67,12 @@ export default defineConfig({
               items: [
                 { text: 'CSS', link: '/skill-tree/css-docs' },
                 { text: 'HTML', link: '' },
-                { text: 'JavaScript', link: '/skill-tree/javascript-docs' },
+                {
+                  text: 'JavaScript', collapsed: true,
+                  items: [
+                    { text: 'reduce', link: '/skill-tree/javascript/reduce' },
+                  ]
+                },
               ]
             },
             {
