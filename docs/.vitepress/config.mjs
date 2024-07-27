@@ -151,6 +151,52 @@ export default defineConfig({
               ]
             },
             {
+              text: '数据库',
+              collapsed: true,
+              items: [
+                { text: 'Mysql', link: '' },
+              ]
+            },
+            {
+              text: '服务器',
+              collapsed: true,
+              items: [
+                { text: 'Nginx', link: '' },
+                { text: 'ssh', link: '' },
+                { text: 'Linux', link: '/skill-tree/linux-docs' },
+                { text: 'PM2', link: '' },
+              ]
+            },
+            {
+              text: '版本库',
+              collapsed: true,
+              items: [
+                { text: 'Git', link: '/skill-tree/git/git/git' },
+                {
+                  text: 'GitHub',
+                  collapsed: true,
+                  items: [
+                    { text: 'github', link: '/skill-tree/git/github/github' },
+                    { text: 'workflows', link: '/skill-tree/git/github/workflows' },
+                  ]
+                },
+                {
+                  text: 'GitLab',
+                  collapsed: true,
+                  items: [
+                    { text: 'gitlab-ci', link: '/skill-tree/git/gitlab/gitlab-ci' },
+                  ]
+                },
+              ]
+            },
+            {
+              text: 'DevOps',
+              collapsed: true,
+              items: [
+                { text: 'yaml', link: '/skill-tree/other/yaml' },
+              ]
+            },
+            {
               text: '数据结构',
               collapsed: true,
               items: [
@@ -177,45 +223,6 @@ export default defineConfig({
               ]
             },
             {
-              text: '数据库',
-              collapsed: true,
-              items: [
-                { text: 'Mysql', link: '' },
-              ]
-            },
-            {
-              text: '版本库',
-              collapsed: true,
-              items: [
-                { text: 'Git', link: '/skill-tree/git/git' },
-                {
-                  text: 'GitHub',
-                  collapsed: true,
-                  items: [
-                    { text: 'github', link: '/skill-tree/git/github/github' },
-                    { text: 'workflows', link: '/skill-tree/git/github/workflows' },
-                  ]
-                },
-                {
-                  text: 'GitLab',
-                  collapsed: true,
-                  items: [
-                    { text: 'gitlab-ci', link: '/skill-tree/git/gitlab/gitlab-ci' },
-                  ]
-                },
-              ]
-            },
-            {
-              text: '服务器',
-              collapsed: true,
-              items: [
-                { text: 'Nginx', link: '' },
-                { text: 'ssh', link: '' },
-                { text: 'Linux', link: '/skill-tree/linux-docs' },
-                { text: 'PM2', link: '' },
-              ]
-            },
-            {
               text: '编程思想',
               collapsed: true,
               items: [
@@ -229,13 +236,6 @@ export default defineConfig({
                 { text: '概述', link: '/skill-tree/patterns/overview' },
               ]
             },
-            {
-              text: '其它',
-              collapsed: true,
-              items: [
-                { text: 'yaml', link: '/skill-tree/other/yaml' },
-              ]
-            }
           ]
         },
       ],
