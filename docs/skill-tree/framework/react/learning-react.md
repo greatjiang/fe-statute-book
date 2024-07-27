@@ -25,7 +25,7 @@ Suspense
 # 第二章 JavaScript新特性
 
 # 第三章 JavaScript函数式编程【重要】
-函数式编程技术不仅是React的核心思想，也是React生态系统中很多库的重要编程手段  
+!函数式编程技术不仅是React的核心思想，也是React生态系统中很多库的重要编程手段  
 
 函数始终是微积分的一个部分。
 
@@ -131,3 +131,89 @@ map/filter/reduce 接受函数作为参数，因此他们是高阶函数
 8. 递归
 
 # 第四章 React运行机制
+JSX  
+React元素  
+React组件  
+
+## 4.1 页面设置 
+React 创建视图  
+ReactDOM 负责在浏览器中渲染UI  
+
+## 4.2 React元素
+React是更新浏览器DOM的一个库。  
+有了React我们不再直接与DOM API交互  
+
+React元素是对真正的DOM元素的描述。  
+
+React.createElement("元素类型",{属性},指定元素的子节点)  
+
+React组件其实就是JavaScript字面量，告知React如何构建DOM元素。  
+
+React元素的type属性告知React要创建的是什么类型的HTML或SVG元素。  
+props属性表示构建一个DOM元素所需要的数据和子元素。  
+
+!_元素创建与DOM描述  
+
+## 4.3 ReactDOM
+ReactDOM.render(渲染的元素,目标节点)  
+
+在React16之前的版本中，只能在DOM中渲染一个元素。  
+而现在可以渲染数组。  
+
+### 子元素  
+React使用props.children渲染渲染子元素。  
+
+!传给createElement函数的各个额外参数就是一个子元素。React将创建一个由子元素构成的数组，
+把props.children的值设为这个数组。  
+
+!class是JavaScript的保留字，所以使用className定义HTML元素的class属性。  
+
+### 使用数据构建元素
+Array.map  
+
+## 4.4 React组件
+组件方便重用相同的结构，只需在结构中填充不同的数据即可。   
+
+!_全局映射&参数props获取
+
+### React组件历史回顾
+1. React.createClass
+2. 类组件React.Component
+
+# 第五章 在React中使用JSX
+使用一种基于标签的语法直接在JavaScript代码中定义React元素。  
+
+## 5.1 使用JSX创建React元素
+组件的属性有两种类型：字符串或者JavaScript表达式。  
+JavaScript表达式可以是数组、对象，甚至是函数。  
+传入的表达式必须放入一对花括号内。  
+
+!_当组件的属性用JSX表达式必须使用花括号（即JavaScript表达式）  
+
+### 5.1.1 JSX小贴士
+嵌套组件  
+className  
+JavaScript表达式放在一对花括号内，表示要对变量求值，并返回得到的值。  
+求值 一对花括号之间的JavaScript代码会做求值。  
+
+### 5.1.2 使用JSX映射数组
+JSX是JavaScript，可以直接在JavaScript函数中使用。  
+
+JSX需要Babel编译。
+
+## 5.2 Babel
+在HTML中使用Babel  
+```js
+<script type="text/babel">
+编写JSX代码
+</script>
+```
+
+## 5.3 使用JSX编写菜谱应用
+JSX的缺点是浏览器读不懂。  
+
+!_组件就是函数，函数就是组件
+
+使用对象析构可以让组件把这些字段的名称限定在本地作用域中   
+
+## 5.4 React片段
