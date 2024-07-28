@@ -71,6 +71,7 @@ export default defineConfig({
                   text: 'JavaScript', collapsed: true,
                   items: [
                     { text: 'reduce', link: '/skill-tree/javascript/reduce' },
+                    { text: 'map', link: '/skill-tree/javascript/map' },
                   ]
                 },
               ]
