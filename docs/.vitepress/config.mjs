@@ -71,6 +71,7 @@ export default defineConfig({
                   text: 'JavaScript', collapsed: true,
                   items: [
                     { text: 'reduce', link: '/skill-tree/javascript/reduce' },
+                    { text: 'map', link: '/skill-tree/javascript/map' },
                   ]
                 },
               ]
@@ -84,6 +85,7 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { text: 'module模块', link: '/skill-tree/es6/module' },
+                    { text: '高阶函数', link: '/skill-tree/es6/high-level' },
                   ]
                 },
                 { text: 'TypeScript', link: '' },
