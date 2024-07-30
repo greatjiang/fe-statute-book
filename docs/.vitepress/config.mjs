@@ -170,28 +170,6 @@ export default defineConfig({
               ]
             },
             {
-              text: '版本库',
-              collapsed: true,
-              items: [
-                { text: 'Git', link: '/skill-tree/git/git/git' },
-                {
-                  text: 'GitHub',
-                  collapsed: true,
-                  items: [
-                    { text: 'github', link: '/skill-tree/git/github/github' },
-                    { text: 'workflows', link: '/skill-tree/git/github/workflows' },
-                  ]
-                },
-                {
-                  text: 'GitLab',
-                  collapsed: true,
-                  items: [
-                    { text: 'gitlab-ci', link: '/skill-tree/git/gitlab/gitlab-ci' },
-                  ]
-                },
-              ]
-            },
-            {
               text: 'DevOps',
               collapsed: true,
               items: [
@@ -236,6 +214,28 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概述', link: '/skill-tree/patterns/overview' },
+              ]
+            },
+            {
+              text: '版本库',
+              collapsed: true,
+              items: [
+                { text: 'Git', link: '/skill-tree/git/git/git' },
+                {
+                  text: 'GitHub',
+                  collapsed: true,
+                  items: [
+                    { text: 'github', link: '/skill-tree/git/github/github' },
+                    { text: 'workflows', link: '/skill-tree/git/github/workflows' },
+                  ]
+                },
+                {
+                  text: 'GitLab',
+                  collapsed: true,
+                  items: [
+                    { text: 'gitlab-ci', link: '/skill-tree/git/gitlab/gitlab-ci' },
+                  ]
+                },
               ]
             },
           ]

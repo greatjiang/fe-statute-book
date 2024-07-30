@@ -4,6 +4,17 @@ Array.prototype.reduce 方法是在 ECMAScript 5.1（也称为 ES5）中引入�
 ## 概念
 reduce方法是JavaScript中数组的一个高阶函数，用于对数组中的每个元素执行一个提供的函数（称为“归约函数”），将其结果汇总为单个值。
 
+```js
+array.reduce(callback(accumulator,currentValue,currentIndex,array),initialValue)
+```
+callback: 用于每个数组元素的函数，包含四个参数：   
+- accumulator: 累加器，用于累积计算结果。
+- currentValue: 当前处理的数组元素。
+- currentIndex（可选）: 当前处理元素的索引。
+- array（可选）: 调用 reduce 的数组。
+- initialValue（可选）: 作为第一次调用 callback 的 accumulator 的初始值。如果提供了 initialValue，则 accumulator 会在第一次调用时被赋予该值，否则 accumulator 会在第一次调用时被赋予数组的第一个元素，且 currentValue 会从第二个元素开始。
+
+
 ## 高阶函数
 高阶函数指用于处理其他函数的函数，其参数可以使函数，也可以返回函数，或者二者兼而有之。
 
