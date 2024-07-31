@@ -544,6 +544,151 @@ PureComponent的作用与React.memo相同，不过前者只适用于类组件，
 React本身并不慢，深层次的优化应该放在最后。   
 
 # 第八章 处理数据
+! 数据是应用的命脉。   
+! 数据像水一样具有流动性，用值滋养着组件。   
+
+网络、服务、系统、数据库   
+
+## 8.1 请求数据
+HTTP是互联网通信的支柱。  
+
+? fetch  
+
+### 8.1.1 随请求发送数据
+
+### 8.1.2 使用fetch上传文件
+上传文件需要使用一种不同的HTTP请求：multipart-formdata请求。   
+在JavaScript中发起这种请求，只需要在请求的主体中传送一个Formdata对象。   
+
+### 8.1.3 授权请求 【重点】
+一般情况下，我们在每个请求中添加一个唯一的令牌token，供服务识别用户的身份。  
+这个令牌通常在Authorization首部中添加。   
+
+! 生成GitHub用户令牌   
+
+useState的作用是把响应存储在状态中。  
+useEffect的作用是发起fetch请求。  
+
+? stringify(data,null,2)
+
+### 8.1.4 在本地保存数据
+可以使用Web Storage API把数据存储在本地浏览器中。  
+localStorage将无限期保存数据，除非主动删除。  
+sessionStorage只把数据保存到用户会话中，关闭标签页或重启浏览器，保存的数据都将清空。  
+
+! JSON数据应该以字符串的形式保存到浏览器存储空间中。  
+
+请勿使用Web Storage缓存数据。如果发现性能有波动，可以试着让HTTP处理缓存。  
+添加Cache-Control: max-age=<ESP_DATE>  
+
+### 8.1.5 处理Promise状态
+HTTP请求和promise均有三种状态：待定、成功和失败。   
+
+## 8.2 渲染属性 【学习】
+<!-- ?_ 渲染属性模式创建组件    -->
+
+? toLocalString()?   
+
+-c 在 React 中，渲染属性（Render Props）是一种模式，允许你将组件的渲染逻辑作为一个函数(?!_ 函数还是属性？应该是属性吧？)传递给组件。这种模式可以让你在组件之间共享逻辑，同时保持代码的清晰和可维护性。   
+
+!渲染通过某个属性传入的组件。  
+
+## 8.3 虚拟化列表
+浏览器的渲染能力是有限的。  
+渲染要耗费时间、占据处理能力及消耗内存。  
+
+一次渲染”指定个“元素，其它数据排队等候，后面在渲染。这种技术成为虚拟化。   
+
+? 虚拟化   
+
+最受欢迎的虚拟化列表组件是react-window和react-virtualized   
+
+```js
+npm i faker
+应该是用来制造假数据的
+```
+
+? width={50} 这里不需要单位么？   
+? children属性   
+
+### 8.3.1 创建useFetch钩子
+自定义useFetch钩子   
+
+### 8.3.2 创建fetch组件
+! 钩子最大的作用是跨组件重用功能。   
+
+### 8.3.3 处理多个请求 【学习】
+
+### 8.3.4 备忘值 【学习】
+
+### 8.3.5 瀑布式请求
+react-markdown 把Markdown渲染为HTML   
+
+### 8.3.6 限制网络速度
+在开发者工具的“NetWork”标签页中查看。可以查看每一个请求，还可以限制网络速度。   
+
+### 8.3.7 并行请求
+
+### 8.3.8 等待值出现  
+
+### 8.3.9 取消请求
+
+## 8.4 GraphQL简介
+_ React和GraphQL都是Facebook设计的。   
+
+同时获得所需的全部数据。   
+
+### 8.4.1 GitHub GraphQL API
+
+### 8.4.2 发起一个GraphQL请求
+GraphQL请求是在请求主体中包含查询的HTTP请求。   
+可以使用fetch发起GraphQL请求。   
+
+graphql-request   
+
+? GraphQL   
+
+
+! promise/fetch/HTTP   
+
+# 第九章 Suspense
+
+# 第十章 React测试
+函数式编程技术的一个优势是写出的代码易于测试。  
+
+## 10.1 ESLint 
+eslint-plugin-react插件   
+
+eslint --init 创建一个ESLint配置文件   
+.eslintrc.json   
+
+eslint . 对整个目录执行lint操作。   
+
+### ESLint插件 
+eslint-plugin-react-hooks   
+
+eslint-pluginjsx-a11y   
+
+## 10.2 Prettier
+代码格式化工具。   
+
+ESLint负责保证代码质量，Prettier负责处理代码格式化。   
+
+### 10.2.1 在项目中配置Prettier
+.prettierrc配置文件   
+
+eslint-config-prettier   
+eslint-plugin-prettier   
+
+### 10.2.2 在VSCode中使用Prettier
+
+
+
+
+
+
+
+
 
 
 
