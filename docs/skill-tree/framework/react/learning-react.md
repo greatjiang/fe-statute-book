@@ -681,6 +681,145 @@ eslint-config-prettier
 eslint-plugin-prettier   
 
 ### 10.2.2 在VSCode中使用Prettier
+在保存时自动格式化代码。   
+Code->Preferences->Settings   
+
+可以把Prettier的配置添加到编辑器的设置中。  
+
+## 10.3 对React应用做的类型检查
+主要有三种方式：prop-types/Flow/TypeScript   
+
+### 10.3.1 PropTypes
+prop-types   
+
+### 10.3.2 Flow
+Flow是一个类型检查库，Facebook开发和维护。  
+
+### 10.3.3 TypeScript
+由Microsoft开发   
+旨在帮助开发者找出大兴应用的bug，并快速迭代项目。   
+
+? Jest?   
+
+TypeScript的作用不止验证属性，还可以做类型推导对钩子值做类型检查。      
+
+## 10.4 测试驱动开发
+Test-driven development TDD 测试驱动开发   
+是一种实践方式，不是一项工程技术。   
+
+测试的步骤是 遇红（失败）、变绿（通过）和镀金（重构）   
+
+! TDD特别适合用于开发React应用，尤其方便测试钩子。   
+
+### 边学习边践行TDD
+
+## 10.5 Jest
+React官方推荐使用的测试框架Jest   
+
+### Create React App和测试
+被测系统system under test SUT   
+
+expect()   
+.toBe   
+.toEqual   
+
+describe()   
+
+## 10.6 测试React组件   
+对组件的测试首先要渲染能组件，然后检查得到的DOM。   
+
+组件测试不在浏览器中运行，而是在终端里使用Nodejs运行。   
+
+Jest集成的jsdom包可以再Node.js中模拟浏览器环境   
+
+testing-library增强测试工具的功能   
+
+### 10.6.1 查询
+
+### 10.6.2 测试事件
+
+### 10.6.3 代码覆盖度
+指具体对多少行代码做了测试的统计，通过这个指标可以判断有没有编写足够的测试。   
+
+Istanbul   
+
+超过85就算不错了   
+
+# 第十一章 React Router
+
+## 11.1 使用React Router
+安装React Router和React Router DOM   
+
+入口文件不再渲染App组件，而是渲染Router组件。   
+Router组件只能使用一次，而且应该放在组件树中靠近根的位置上。  
+
+要渲染的各个路由嵌套在名为Routes的组件中。   
+在Routers中，一个页面使用一个Route组件设置。   
+
+react-router-dom   
+
+## 11.2 React Router属性
+
+### 嵌套路由
+
+Outlet组件   
+
+### 11.3 重定向
+
+#### 路由参数
+react-router-dom   
+useParams   
+useNavigate   
+
+路由参数是获取影响用户界面呈现内容所需数据的理想工具。   
+
+# 第十二章 React服务器端渲染
+借助服务器端渲染，可以提升性能、增进可移植性、提高安全性。   
+
+## 12.1 同构与普适
+同构和普适通常都指在客户端和服务器端均可以运行的应用。   
+同构应用指可以在多个平台上渲染的应用   
+普适代码指同一套代码可在多个环境中运行   
+
+普适JavaScript代码既可以在服务器端运行，也能在浏览器中运行。   
+
+### 客户端和服务端范畴
+
+Node.js与浏览器不同，没有内置fetch函数。   
+
+## 12.2 服务器端渲染React
+使用ReactDOM.renderToString方法可以在服务器端渲染UI。   
+
+把ReactDOM.render换成ReactDOM.hydrate。   
+ReactDOMServer   
+
+## 12.3 使用Next.js做服务器端渲染
+
+构建应用方面的一些重要的术语：   
+- CSR client-side rendering 客户端渲染
+- SSR server-side rendering 服务端渲染
+- 再输送
+  在客户端加载JavaScript视图，重用服务器端渲染的HTML DOM树和数据。
+- 与渲染
+  在构建时运行客户端应用，把初始状态生成为静态HTML
+
+## 12.4 Gatsby
+
+静态内容网站。   
+
+功能：  
+- 静态内容
+- CDN支持
+- 响应式和渐进式图像
+- 预获取链接的页面
+
+## 12.5 React未来展望
+
+
+
+
+
+
 
 
 
