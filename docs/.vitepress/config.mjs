@@ -15,9 +15,9 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '基础知识', link: '/docs/concept' },
+      { text: '编程概念', link: '/docs/concept' },
       { text: '技术文章', link: '/skill-tree/overview' },
-      { text: '实用教程', link: '/course/npm' },
+      { text: '实用案例', link: '/course/npm' },
       { text: '项目教程', link: '/projects/full-stack-journal' }
     ],
     sidebar: {
@@ -45,7 +45,7 @@ export default defineConfig({
       ],
       '/docs/': [
         {
-          text: '基础',
+          text: '编程概念',
           items: [
             { text: '常见概念', link: '/docs/concept' },
             { text: '实用工具库', link: '/docs/fe-util-lib' },
@@ -170,13 +170,6 @@ export default defineConfig({
               ]
             },
             {
-              text: 'DevOps',
-              collapsed: true,
-              items: [
-                { text: 'yaml', link: '/skill-tree/other/yaml' },
-              ]
-            },
-            {
               text: '数据结构',
               collapsed: true,
               items: [
@@ -236,6 +229,13 @@ export default defineConfig({
                     { text: 'gitlab-ci', link: '/skill-tree/git/gitlab/gitlab-ci' },
                   ]
                 },
+              ]
+            },
+            {
+              text: 'DevOps',
+              collapsed: true,
+              items: [
+                { text: 'yaml', link: '/skill-tree/other/yaml' },
               ]
             },
           ]
