@@ -142,6 +142,8 @@ export default defineConfig({
               items: [
                 { text: 'Express', link: '' },
                 { text: 'Koa', link: '' },
+                // { text: 'XMLHttpRequest', link: '' },
+                { text: 'Fetch', link: '/skill-tree/back-end/fetch' },
                 { text: 'API', link: '/skill-tree/back-end/api' },
               ]
             },
@@ -150,6 +152,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '三次握手', link: '/skill-tree/net/three-times' },
+                { text: 'SSH', link: '/skill-tree/net/ssh' },
               ]
             },
             {
