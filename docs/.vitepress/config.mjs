@@ -144,7 +144,8 @@ export default defineConfig({
                 { text: 'Koa', link: '' },
                 // { text: 'XMLHttpRequest', link: '' },
                 { text: 'Fetch', link: '/skill-tree/back-end/fetch' },
-                { text: 'API', link: '/skill-tree/back-end/api' },
+                { text: 'RESTful API', link: '/skill-tree/back-end/restful-api' },
+                // { text: 'auth', link: '/skill-tree/back-end/auth' },
               ]
             },
             {

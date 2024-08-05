@@ -9,7 +9,7 @@ DELETE: 删除资源
 
 <!-- ### 前后端分离有几种方式？ -->
 
-### HTTP方法（GET、POST、PUT、DELETE）一共四种，为什么大部分公司只用GET和POST
+## HTTP方法（GET、POST、PUT、DELETE）一共四种，为什么大部分公司只用GET和POST
 - 浏览器支持: 早期的一些浏览器对PUT和DELETE方法的支持不完善，这使得开发者更倾向于使用GET和POST，以确保兼容性。   
 - GET和POST的普遍使用: GET用于获取数据，POST用于提交数据的模式简单易懂，适用于大多数场景。
 - 客户端工具的支持: 很多HTTP客户端（如HTML表单、JavaScript库）对GET和POST有直接的支持，而对PUT和DELETE的支持相对较少。
