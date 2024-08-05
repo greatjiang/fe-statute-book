@@ -200,6 +200,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概述', link: '/skill-tree/paradigms/overview' },
+                { text: '函数式编程', link: '/skill-tree/paradigms/functional.md' },
               ]
             },
             {
