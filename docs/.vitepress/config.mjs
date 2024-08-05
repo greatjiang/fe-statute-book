@@ -142,7 +142,10 @@ export default defineConfig({
               items: [
                 { text: 'Express', link: '' },
                 { text: 'Koa', link: '' },
-                { text: 'API', link: '/skill-tree/back-end/api' },
+                // { text: 'XMLHttpRequest', link: '' },
+                { text: 'Fetch', link: '/skill-tree/back-end/fetch' },
+                { text: 'RESTful API', link: '/skill-tree/back-end/restful-api' },
+                // { text: 'auth', link: '/skill-tree/back-end/auth' },
               ]
             },
             {
@@ -150,6 +153,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '三次握手', link: '/skill-tree/net/three-times' },
+                { text: 'SSH', link: '/skill-tree/net/ssh' },
               ]
             },
             {
@@ -200,6 +204,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '概述', link: '/skill-tree/paradigms/overview' },
+                { text: '函数式编程', link: '/skill-tree/paradigms/functional.md' },
               ]
             },
             {

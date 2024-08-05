@@ -1,5 +1,5 @@
 # API身份验证和授权
-
+(待完善...)
 ## JWT
 JWT（JSON Web Token）：跨域认证解决方案
 
