@@ -244,6 +244,13 @@ export default defineConfig({
                 { text: 'yaml', link: '/skill-tree/other/yaml' },
               ]
             },
+            {
+              text: '计算机科学',
+              collapsed: true,
+              items: [
+                { text: '概述', link: '/skill-tree/computer/concept' },
+              ]
+            },
           ]
         },
       ],
