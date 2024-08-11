@@ -47,6 +47,7 @@ export default defineConfig({
         {
           text: '编程概念',
           items: [
+            { text: '技术掌握', link: '/docs/javascript' },
             { text: '常见概念', link: '/docs/concept' },
             { text: '实用工具库', link: '/docs/fe-util-lib' },
             { text: '技能树', link: '/docs/skill-tree' },
