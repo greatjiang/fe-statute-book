@@ -90,7 +90,14 @@ export default defineConfig({
                     { text: '高阶函数', link: '/skill-tree/es6/high-level' },
                   ]
                 },
-                { text: 'TypeScript', link: '' },
+                {
+                  text: 'TypeScript',
+                  collapsed: true,
+                  items: [
+                    { text: '接口类型', link: '' },
+                    { text: '类型断言', link: '' },
+                  ]
+                },
                 {
                   text: 'Nodejs',
                   collapsed: true,
