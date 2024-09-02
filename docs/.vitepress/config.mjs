@@ -18,7 +18,11 @@ export default defineConfig({
       { text: '编程概念', link: '/docs/concept' },
       { text: '技术文章', link: '/skill-tree/overview' },
       { text: '实用案例', link: '/course/npm' },
-      { text: '项目教程', link: '/projects/full-stack-journal' }
+      { text: '项目教程', link: '/projects/full-stack-journal' },
+      { text: '开发框架', link: '/framework/main' },
+      { text: '技术语言', link: '/technology' },
+      { text: '开发素养', link: '/evelopment' },
+      { text: '基础能力', link: '/basic' },
     ],
     sidebar: {
       '/projects/': [
@@ -274,16 +278,31 @@ export default defineConfig({
           ]
         },
       ],
-      // {
-      //   text: '功能实战',
-      //   items: [
-      //     { text: 'Express、Koa、Nest 接口模板', link: '' },
-      //     { text: '大文件上传、断点续传', link: '' },
-      //     { text: 'oss登录', link: '' },
-      //     { text: 'jwt', link: '' },
-      //     { text: '日志', link: '' },
-      //   ]
-      // },
+      'framework': [
+        {
+          'text': '开发框架',
+          items: [
+            {
+              text: '概念',
+              link: '/framework/main'
+            },
+            {
+              text: 'React',
+              collapsed: true,
+              items: [
+                { text: 'React渲染', link: '/framework/react/render' },
+              ]
+            },
+            {
+              text: 'Vue',
+              collapsed: true,
+              items: [
+                { text: 'Vue diff算法', link: '/framework/vue/diff' },
+              ]
+            },
+          ]
+        }
+      ]
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/greatjiang/fe-statute-book' }
